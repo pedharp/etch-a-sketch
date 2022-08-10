@@ -1,11 +1,33 @@
 * {
     box-sizing: border-box;
 }
-
-.container {
+body{
     display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* height: 50vh; */
+
+}
+.container {
+    margin: 10px 0;
+    display: flex;
+    /* flex-direction: column; */
     flex-wrap: wrap;
-    padding-left: 50px;
-    width: 700px;
-    height: 700px;
+    width: 640px;
+    min-height: 640px;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    background-color: #8dbee3;
+    font-family: Lato;
+    font-size: 12px;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 0 20px;
+}
+.button-container{
+    display: flex;
+    flex-direction: column;
 }
